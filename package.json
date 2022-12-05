@@ -1,0 +1,24 @@
+{
+  "name": "linking-backend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/builders": "^0.5.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^4.4.1",
+    "cors": "^2.8.5",
+    "discord-api-types": "^0.22.0",
+    "discord.js": "^13.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^5.13.3",
+    "node": "16.6.1",
+    "passport": "^0.4.1",
+    "passport-steam": "^1.0.15",
+    "qs": "^6.10.1",
+    "steam-group-members": "^1.0.0"
+  }
+}

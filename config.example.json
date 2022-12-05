@@ -1,0 +1,80 @@
+{
+    "PORT": 81,
+    "MONGOSTRING": "MONGO DB CONNECTION STRING",
+    "ENCRYPTION_KEY": "ENCRYPTION KEY",
+    "API_KEY": "API KEY TO BACKEND FOR UNLINKING AND STAFF INTERACTION",
+
+    "DISCORD_BOT_TOKEN": "DISCORD BOT TOKEN",
+    "DISCORD_GUILD_ID": "DISCORD SERVER ID",
+	"DISCORD_INVITE_CODE": "DISCORD INVITE CODE",
+
+    "ENABLE_DISCORD_SERVER_CHECKING": true,
+    "ENABLE_STEAM_GROUP_CHECKING": true,
+
+    "SHOW_LINKED_COUNT_IN_BOT_STATUS": false,
+
+    "PROVIDE_LINKING_DETAILS_ON_KEYWORDS": true,
+    "MINIMUM_DOMINANT_KEYWORDS": 1,
+    "DOMINANT_KEYWORDS": [
+        "link",
+        "linking",
+        "verify",
+        "verification"
+    ],
+
+    "MINIMUM_KEYWORDS_REQUIRED": 2,
+    "LINKING_INFO_KEYWORDS": [
+        "how",
+        "account",
+        "where",
+        "do",
+        "to",
+        "status",
+        "i"
+    ],
+
+    "LINKING_DETAILS_MESSAGE": {
+        "content": "Hey there {USER}, It appears your account {USER_LINK_STATUS} linked!",
+        "embeds": [
+            {
+                "title": "Where do I link my account?",
+                "description": "You can link your account by going to our [linking page]({LINKING_URL})!"
+            },
+            {
+                "title": "How many members have linked their account?",
+                "description": "There are a total of {LINKED_COUNT} members who have linked their account!"
+            }
+        ]
+    },
+
+    "DISCORD_VERIFIED_ROLE_ID": "VERIFIED ROLE ID",
+
+    "DISCORD_STAFF_ROLES": [
+        "DISCORD STAFF ROLES"
+    ],
+
+    "DISCORD_UNLINK_COMMAND": "unlink",
+    "DISCORD_LOOKUP_COMMAND": "lookup",
+
+    "DISCORD_OAUTH2_CLIENT_ID": "DISCORD OAUTH2 CLIENT ID",
+    "DISCORD_OAUTH2_CLIENT_SECRET": "DISCORD OAUTH2 CLIENT SECRET",
+
+    "DISCORD_LINK_LOG_CHANNEL": "LINKING LOG CHANNEL",
+    
+    "LINKING_MESSAGE_FOOTER_LOGO_URL": "EMBED FOOTER IMAGE",
+    "LINKING_MESSAGE_FOOTER_TEXT": "EMBED FOOTER TEXT",
+
+    "API_DOMAIN": "http://api.rustyrails.co",
+    "WEBPAGE_DOMAIN": "https://link.rustyrails.co",
+    "WEBPAGE_DIRECTORY": "/",
+
+    "STEAM_GROUP_ID": "STEAM GROUP ID",
+    "STEAM_API_KEY": "STEAM API KEY",
+
+    "ORIGIN": [ "https://link.rustyrails.co" ],
+
+    "HTTPS": false,
+    "PRIVKEY_PATH": "PATH/TO/PRIVKEY.PEM",
+    "CERT_PATH": "PATH/TO/CERT.PEM",
+    "FULLCHAIN_PATH": "PATH/TO/FULLCHAIN.PEM"
+}
