@@ -4,3 +4,9 @@ This system was created as a learning opportunity and unfortunately I used some 
 
 # Developers
 This system is in retrospect a working system. We have not provided a front-end as we never fully finished or published this project. You can of course use it for inspiration or to learn how you can achieve similar results in your own application. If you plan to fork this software, it's encouraged you undergo heavy modification to the way you update linking status'. We did include a copy of a barebones React website that uses short polling but this will easily eat up the Discord API rate limit.
+
+`SimpleLinkingSolution.cs` - Plugin responsible for handling and managing the linking status of players in game
+
+`/ (Root, minus .cd and .zip file)` - Backend for the linking system
+
+`Website (React).zip` - Barebones React application for linking system
